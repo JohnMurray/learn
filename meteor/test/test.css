@@ -1,0 +1,9 @@
+/* CSS declarations go here */
+body {
+  text-align: center;
+}
+
+#wrapper {
+  text-align: left;
+  margin: 0 auto;
+  width: 800px;

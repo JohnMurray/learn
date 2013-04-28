@@ -1,0 +1,21 @@
+<head>
+  <title>test</title>
+</head>
+
+<body>
+  {{> page}}
+</body>
+
+<template name="page">
+  <div id="wrapper">
+    {{> header}}
+  </div>
+</template>
+
+<template name="header">
+  <div id="wrapper">
+    <div style="float:right">
+      {{loginButtons align="right"}}
+    </div>
+  </div>
+</template>
