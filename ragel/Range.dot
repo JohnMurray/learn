@@ -1,0 +1,13 @@
+digraph range {
+	rankdir=LR;
+	node [ shape = point ];
+	ENTRY;
+	en_1;
+	node [ shape = circle, height = 0.2 ];
+	node [ fixedsize = true, height = 0.65, shape = doublecircle ];
+	1;
+	node [ shape = circle ];
+	1 -> 1 [ label = "97..122 / ts, last1, initts" ];
+	ENTRY -> 1 [ label = "IN" ];
+	en_1 -> 1 [ label = "main" ];
+}

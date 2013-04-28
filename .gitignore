@@ -8,3 +8,4 @@ rust/hello
 rust/pointer
 rust/struct
 rust/worm-world
+*.class
