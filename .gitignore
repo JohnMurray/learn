@@ -1,0 +1,10 @@
+*.swp
+*.dSYM
+*~
+rust/array
+rust/enums
+rust/fns
+rust/hello
+rust/pointer
+rust/struct
+rust/worm-world
